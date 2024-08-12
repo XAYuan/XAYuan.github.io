@@ -22,7 +22,7 @@
 
   
 
-  <title>第一篇文章 | sukiZ.</title>
+  <title>Markdown教程 | sukiZ.</title>
 
   
 
@@ -73,8 +73,6 @@
         
           <li class="navbar-list-item"><a href="/archives">归档</a></li>
         
-          <li class="navbar-list-item"><a href="/links">友链</a></li>
-        
           <li class="navbar-list-item"><a href="/about">关于</a></li>
         
       </ul>
@@ -99,7 +97,7 @@
     <div class="header-content">
       <div class="post-text layout-block">
         <div class="layout-margin">
-          <h1 class="title-wrap">第一篇文章</h1>
+          <h1 class="title-wrap">Markdown教程</h1>
           <h2 class="title-sub-wrap">
             <strong>sukiZ.</strong>
             <span>发布于</span>
@@ -108,18 +106,18 @@
           
             <h2 class="last-time">
               <span>最后更新于</span>
-              <time  class="article-updated" datetime="2024-08-12T02:43:52.359Z" itemprop="dateUpdated">2024-08-12</time>
+              <time  class="article-updated" datetime="2024-08-12T09:45:12.914Z" itemprop="dateUpdated">2024-08-12</time>
             </h2>
           
           
           <ul class="wrap-list dark">
   
-    <li><a href="/categories/%E7%AC%94%E8%AE%B0/">📒 笔记</a></li>
+    <li><a href="/categories/%E6%95%99%E7%A8%8B/">📒 教程</a></li>
     
 </ul>
           <ul class="wrap-list dark">
   
-    <li><a href="/tags/markdown%E6%95%99%E7%A8%8B/">🏷️ markdown教程</a></li>
+    <li><a href="/tags/markdown/">🏷️ markdown</a></li>
   
 </ul>
         </div>
@@ -143,7 +141,200 @@
       
       
       <section class="article-entry markdown-body layout-margin content-padding--large soft-size--large soft-style--box">
-        <h1 id="markdown的基本语法"><a href="#markdown的基本语法" class="headerlink" title="markdown的基本语法"></a>markdown的基本语法</h1>
+        <h1 id="1、Markdown标题"><a href="#1、Markdown标题" class="headerlink" title="1、Markdown标题"></a>1、Markdown标题</h1><p>Markdown 标题有两种格式。</p>
+<h2 id="1、使用-和-标记一级和二级标题"><a href="#1、使用-和-标记一级和二级标题" class="headerlink" title="1、使用 &#x3D; 和 - 标记一级和二级标题"></a>1、使用 &#x3D; 和 - 标记一级和二级标题</h2><p>&#x3D; 和 - 标记语法格式如下：</p>
+<blockquote>
+<p>展示一级标题<br><code>===========</code><br>展示二级标题<br><code>-----------</code>  </p>
+</blockquote>
+<p>效果：</p>
+<blockquote>
+<h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题 "></a>二级标题 </h2></blockquote>
+<h2 id="2、使用-号标记"><a href="#2、使用-号标记" class="headerlink" title="2、使用 # 号标记"></a>2、使用 # 号标记</h2><p>使用 <code>#</code> 号标记可表示 1- 6 级标题，一级标题对应一个 <code>#</code> 号，二级标题对应两个 <code>#</code> 号，其他以此类推。  </p>
+<blockquote>
+<p># 一级标题<br>## 二级标题<br>### 三级标题<br>####四级标题<br>#####五级标题<br>######六级标题</p>
+</blockquote>
+<p>效果：</p>
+<blockquote>
+<h1 id="一级标题-1"><a href="#一级标题-1" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题-1"><a href="#二级标题-1" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6></blockquote>
+<h1 id="2、Markdown段落格式"><a href="#2、Markdown段落格式" class="headerlink" title="2、Markdown段落格式"></a>2、Markdown段落格式</h1><p>段落的前后要有空行，所谓的空行是指没有文字内容。若想在段内强制换行的方式是使用<strong>两个以上</strong>空格加上回车（引用中换行省略回车）。</p>
+<h2 id="1、字体"><a href="#1、字体" class="headerlink" title="1、字体"></a>1、字体</h2><p>Markdown 可以使用以下几种字体：</p>
+<blockquote>
+<p>*斜体文本*</p>
+<p>_斜体文本_</p>
+<p>*<em>粗体文本</em>*</p>
+<p>_<em>粗体文本</em>_</p>
+</blockquote>
+<p>效果：</p>
+<blockquote>
+<p><em>斜体文本</em></p>
+<p><em>斜体文本</em></p>
+<p><strong>粗体文本</strong></p>
+<p><strong>粗体文本</strong>  </p>
+</blockquote>
+<h2 id="2、分隔线"><a href="#2、分隔线" class="headerlink" title="2、分隔线"></a>2、分隔线</h2><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：</p>
+<blockquote>
+<p>***</p>
+<p>* * *</p>
+<p>*****</p>
+<p>- - -</p>
+<p>-————–</p>
+</blockquote>
+<p>效果：</p>
+<blockquote>
+<hr>
+<hr>
+<hr>
+<hr>
+<hr>
+</blockquote>
+<h2 id="3、删除线"><a href="#3、删除线" class="headerlink" title="3、删除线"></a>3、删除线</h2><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 <code>~~</code> 即可</p>
+<blockquote>
+<p>~~需要删除的文字~~</p>
+</blockquote>
+<p>效果：</p>
+<blockquote>
+<p><del>需要删除的文字</del></p>
+</blockquote>
+<h2 id="4、下划线"><a href="#4、下划线" class="headerlink" title="4、下划线"></a>4、下划线</h2><p>下划线可以通过 HTML 的  <strong><code>&lt;u&gt;</code></strong> 标签来实现：</p>
+<blockquote>
+<p>&lt;u&gt;带下划线文本</u></p>
+</blockquote>
+<p>效果：</p>
+<blockquote>
+<p><u>带下划线文本</u></p>
+</blockquote>
+<h2 id="5、脚注"><a href="#5、脚注" class="headerlink" title="5、脚注"></a>5、脚注</h2><p>脚注是对文本的补充说明。</p>
+<p>Markdown 脚注的格式如下:</p>
+<blockquote>
+<p>[^要注明的文本]</p>
+</blockquote>
+<p>效果：</p>
+<blockquote>
+<p>一键三连<a href="%E7%82%B9%E8%B5%9E%EF%BC%8C%E6%8A%95%E5%B8%81%EF%BC%8C%E8%BD%AC%E5%8F%91">^三连</a></p>
+</blockquote>
+<h1 id="3、Markdown列表"><a href="#3、Markdown列表" class="headerlink" title="3、Markdown列表"></a>3、Markdown列表</h1><h2 id="1、无序列表与有序列表"><a href="#1、无序列表与有序列表" class="headerlink" title="1、无序列表与有序列表"></a>1、无序列表与有序列表</h2><p>无序列表使用星号(<strong><code>*</code></strong>)、加号(<strong><code>+</code></strong>)或是减号(<strong><code>-</code></strong>)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：</p>
+<blockquote>
+<p>* 第一项<br>* 第一项<br>* 第一项</p>
+<p>* 第一项<br>* 第一项<br>* 第一项</p>
+<p>* 第一项<br>* 第一项<br>* 第一项</p>
+</blockquote>
+<p>效果：</p>
+<blockquote>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+<ul>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ul>
+</blockquote>
+<p>有序列表使用数字并加上 <strong><code>.</code></strong> 号来表示（有1.后按回车即可出现其他序号），如：</p>
+<blockquote>
+<ol>
+<li>第一项</li>
+<li>第二项</li>
+<li>第三项</li>
+</ol>
+</blockquote>
+<h2 id="2、列表嵌套"><a href="#2、列表嵌套" class="headerlink" title="2、列表嵌套"></a>2、列表嵌套</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">1. 第一项：</span><br><span class="line">    - 第一项嵌套的第一个元素</span><br><span class="line">    - 第一项嵌套的第二个元素</span><br><span class="line">2. 第二项：</span><br><span class="line">    - 第二项嵌套的第一个元素</span><br><span class="line">    - 第二项嵌套的第二个元素</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<blockquote>
+<ol>
+<li>第一项：<ul>
+<li>第一项嵌套的第一个元素</li>
+<li>第一项嵌套的第二个元素</li>
+</ul>
+</li>
+<li>第二项：<ul>
+<li>第二项嵌套的第一个元素</li>
+<li>第二项嵌套的第二个元素</li>
+</ul>
+</li>
+</ol>
+</blockquote>
+<h1 id="4、Markdown区块"><a href="#4、Markdown区块" class="headerlink" title="4、Markdown区块"></a>4、Markdown区块</h1><h2 id="1、语法"><a href="#1、语法" class="headerlink" title="1、语法"></a>1、语法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 区块引用</span><br><span class="line">&gt; 教程</span><br><span class="line">&gt; 学习</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<blockquote>
+<p>区块引用<br>菜鸟教程<br>学的不仅是技术更是梦想</p>
+</blockquote>
+<p>另外区块是可以嵌套的，一个 <strong><code>&gt;</code></strong> 符号是最外层，两个 <strong><code>&gt;</code></strong> 符号是第一层嵌套，以此类推：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&gt; 最外层</span><br><span class="line">&gt; &gt; 第一层嵌套</span><br><span class="line">&gt; &gt; &gt; 第二层嵌套</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<blockquote>
+<p>最外层</p>
+<blockquote>
+<p>第一层嵌套</p>
+<blockquote>
+<p>第二层嵌套</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<h2 id="2、列表中使用区块"><a href="#2、列表中使用区块" class="headerlink" title="2、列表中使用区块"></a>2、列表中使用区块</h2><p>如果要在列表项目内放进区块，那么就需要在 <strong><code>&gt;</code></strong> 前添加四个空格的缩进。</p>
+<p>列表中使用区块实例如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">* 第一项</span><br><span class="line">    &gt; 列表</span><br><span class="line">    &gt; 区块</span><br><span class="line">* 第二项</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<ul>
+<li>第一项<blockquote>
+<p>列表<br>区块</p>
+</blockquote>
+</li>
+<li>第二项</li>
+</ul>
+<h1 id="5、Markdown代码"><a href="#5、Markdown代码" class="headerlink" title="5、Markdown代码"></a>5、Markdown代码</h1><h2 id="1、片段代码"><a href="#1、片段代码" class="headerlink" title="1、片段代码"></a>1、片段代码</h2><p>如果是段落上的一个函数或片段的代码可以用反引号把它包起来（**&#96;**），例如：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">`printf()` 函数</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p><code>printf()</code> 函数</p>
+<h2 id="2、代码区块："><a href="#2、代码区块：" class="headerlink" title="2、代码区块："></a>2、代码区块：</h2><p>用 (<strong>&#96;&#96;&#96;</strong>) 包裹一段代码，并指定一种语言（也可以不指定）：</p>
+<blockquote>
+<p>`&#96;&#96;c（指定的语言）<br>int main(){<br>    return 0;<br>}<br>`&#96;&#96;</p>
+</blockquote>
+<p>效果：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">int main()&#123;</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h1 id="6、Markdown链接"><a href="#6、Markdown链接" class="headerlink" title="6、Markdown链接"></a>6、Markdown链接</h1><h2 id="1、基本用法"><a href="#1、基本用法" class="headerlink" title="1、基本用法"></a>1、基本用法</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">[链接名称](链接地址)</span><br><span class="line">[链接名称](链接地址&quot;可自定义文字&quot;)</span><br><span class="line"></span><br><span class="line">或者</span><br><span class="line"></span><br><span class="line">&lt;链接地址&gt;</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<blockquote>
+<p><a href="www.baidu.com%22%E4%B8%80%E4%B8%AA%E5%9E%83%E5%9C%BE%E7%9A%84%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%22">百度</a></p>
+<p>&lt;<a href="http://www.baidu.com>">www.baidu.com&gt;</a></p>
+</blockquote>
+<h2 id="2、高级用法"><a href="#2、高级用法" class="headerlink" title="2、高级用法"></a>2、高级用法</h2><p>我们可以通过变量来设置一个链接，变量赋值在文档末尾进行：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [百度][1]</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">  [1]: http://www.baidu.com/</span><br></pre></td></tr></table></figure>
+
+<p>效果：</p>
+<p>这个链接用 1 作为网址变量 <a target="_blank" rel="noopener" href="http://www.baidu.com/">百度</a><br>然后在文档的结尾为变量赋值（网址）</p>
+<h1 id="7、Markdown图片"><a href="#7、Markdown图片" class="headerlink" title="7、Markdown图片"></a>7、Markdown图片</h1><h2 id="语法"><a href="#语法" class="headerlink" title="语法"></a>语法</h2><p>Markdown 图片语法格式如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">![可替代文本](图片地址)</span><br><span class="line"></span><br><span class="line">![可替代文本](图片地址 &quot;可选标题&quot;)</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>开头一个感叹号 !</li>
+<li>接着一个方括号，里面放上图片的替代文字</li>
+<li>接着一个普通括号，里面放上图片的网址（可以是本地图片的地址），最后还可以用引号包住并加上自定义文字</li>
+</ul>
+<p>Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <img> 标签。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">&lt;img src=&quot;图片地址&quot; width=&quot;缩放比例&quot;&gt;</span><br><span class="line">例：</span><br><span class="line">&lt;img src=&quot;https://static.jyshare.com/images/runoob-logo.png&quot; width=&quot;50%&quot;&gt;</span><br></pre></td></tr></table></figure>
+
+<p>还有一种用法与连接高级用法类似：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">这个链接用 1 作为变量 [可替代文本][1]</span><br><span class="line">然后在文档的结尾为变量赋值（图片地址）</span><br><span class="line"></span><br><span class="line">  [1]: http:图片地址</span><br></pre></td></tr></table></figure>
+
+<p>实例效果：</p>
+<blockquote>
+<p>这个链接用 1 作为网址变量 <a target="_blank" rel="noopener" href="http://www.baidu.com/">紫罗兰永恒花园</a><br>然后在文档的结尾为变量赋值（网址）</p>
+</blockquote>
+
       </section>
 
       
@@ -225,8 +416,8 @@
     <ul class="categories-list">
       
         <li class="categories-list-item">
-          <a href="/categories/%E7%AC%94%E8%AE%B0/">
-            笔记 (1)
+          <a href="/categories/%E6%95%99%E7%A8%8B/">
+            教程 (1)
           </a>
         </li>
         
@@ -243,7 +434,7 @@
   </div>
   <div class="widget-body">
     <div class="tags-cloud">
-      <a href="/tags/markdown%E6%95%99%E7%A8%8B/" style="font-size: 10px;" class="tags-cloud-0">markdown教程</a>
+      <a href="/tags/markdown/" style="font-size: 10px;" class="tags-cloud-0">markdown</a>
     </div>
   </div>
 </section>
